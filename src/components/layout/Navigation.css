@@ -13,6 +13,12 @@
 	padding: 20px;
 	border-radius: 50%;
 }
-.fixed-top ul.nav {
+.fixed-top .unordered-list {
 	align-items: center;
+}
+.fixed-top .unordered-list .nav-item {
+	padding: 0 10px;
+}
+.sidebar-links:active {
+	color: #fff !important;
 }

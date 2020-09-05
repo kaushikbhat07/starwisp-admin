@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Main from './components/layout/Main'
-import Hello from './components/layout/Hello'
+import Notifications from './components/layout/Notifications'
+import Reports from './components/layout/Reports'
+import Add from './components/layout/Add'
 import Navigation from "./components/layout/Navigation";
 import Sidebar from "./components/layout/Sidebar";
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
@@ -14,9 +16,11 @@ class RouterPage extends Component {
 				<div className="pt-100 d-flex flex-row">
 					<Sidebar />
 					<Switch location={this.props.location}>
-						<Route path='/dashboard' component={Main} />
-						<Route exact path='/hello' component={Hello} />
-						<Redirect to="/dashboard" />
+						<Route path='/home' component={Main} />
+						<Route exact path='/notifications' component={Notifications} />
+						<Route exact path='/add' component={Add} />
+						<Route exact path='/reports' component={Reports} />
+						<Redirect to="/home" />
 					</Switch>
 
 				</div>
