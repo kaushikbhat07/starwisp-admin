@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Card } from 'reactstrap';
 import './Revenue.css'
 import { Bar } from 'react-chartjs-2';

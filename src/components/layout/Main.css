@@ -1,12 +1,25 @@
 .main-section {
 	padding-top: 100px;
 }
+
 .messages-section {
 	position: absolute;
 	margin-top: -35%;
 	max-width: 91%;
 	min-width: 91%;
 }
+
+@media only screen and (min-width: 992px) {
+	.messages-section {
+		margin-top: -43%;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.messages-section {
+		margin-top: -35%;
+	}
+}
+
 .messages-container {
 	position: relative;
 	width: 100%;

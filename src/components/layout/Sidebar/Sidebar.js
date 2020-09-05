@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 function Sidebar() {
 	return (
 		<aside className="d-flex flex-column">
-			<Nav navbar className="bg-light sidebar text-center">
+			<Nav navbar className="bg-light d-none d-sm-block sidebar text-center">
 				<NavItem>
 					<NavLink className="nav-link" to="/home">Dashboard</NavLink>
 				</NavItem>

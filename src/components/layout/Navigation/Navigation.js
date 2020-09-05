@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Navbar, NavbarBrand, Nav, NavItem, NavbarText } from 'reactstrap';
+import React from 'react';
+import { Navbar, NavbarBrand, Nav, NavItem } from 'reactstrap';
 import { NavLink } from 'react-router-dom'
 import './Navigation.css';
 

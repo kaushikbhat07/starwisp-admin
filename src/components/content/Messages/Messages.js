@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Card, Media } from 'reactstrap';
 import './Messages.css'
 

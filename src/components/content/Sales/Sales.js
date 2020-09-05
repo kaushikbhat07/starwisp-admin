@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Card } from 'reactstrap';
 import './Sales.css'
-import { Pie, Doughnut } from 'react-chartjs-2';
+import { Doughnut } from 'react-chartjs-2';
 
 function Sales() {
 	// const [count, setCount] = useState(0);
