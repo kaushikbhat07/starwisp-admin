@@ -10,21 +10,21 @@ function Navigation() {
 		<header>
 			<Navbar color="light" light expand="md" className="shadow fixed-top">
 				<NavbarBrand className="ml-5">
-					<img src="images/logo.jpg" alt="Starwisp Logo" />
+					<a href="/dashboard"><img src="images/logo.jpg" alt="Starwisp Logo" /></a>
 				</NavbarBrand>
  				<NavbarText className="ml-auto">
 					<Nav>
 						<NavItem>
-							<a className="nav-link" to="/dashboard"><span class="fa fa-clipboard"></span></a>
+							<NavLink className="nav-link" to="/hello"><span class="fa fa-clipboard"></span></NavLink>
 						</NavItem>						
 						<NavItem>
-							<a className="nav-link" to="/dashboard"><span className="fa fa-plus"></span></a>
+							<NavLink className="nav-link" to="/hello"><span className="fa fa-plus"></span></NavLink>
 						</NavItem>
 						<NavItem>
-							<a className="nav-link" to="/india"><span className="fa fa-bell"></span></a>
+							<NavLink className="nav-link" to="/hello"><span className="fa fa-bell"></span></NavLink>
 						</NavItem>
 						<NavItem>
-							<a className="nav-link" to="/india">
+							<a className="nav-link">
 								<button className="btn btn-secondary"></button>
 							</a>
 						</NavItem>						
