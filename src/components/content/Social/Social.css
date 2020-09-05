@@ -1,9 +1,9 @@
 .social-card {
-	min-height: 290px;
+	min-height: 390px;
 }
 .social-card p {
 	overflow-y: scroll;
-	max-height: 240px;
+	max-height: 340px;
 }
 
 .social-card p::-webkit-scrollbar {
