@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Card, CardBody, CardTitle } from 'reactstrap';
+import { Card } from 'reactstrap';
 import './Revenue.css'
 import { Bar } from 'react-chartjs-2';
 

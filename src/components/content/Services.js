@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Card } from 'reactstrap';
+import { Card, Progress } from 'reactstrap';
 import './Services.css'
 
 function Services() {
@@ -9,9 +9,21 @@ function Services() {
 		<div>
 			<Card className="services-card shadow p-3">
 				<p>
-					<h3>Services</h3>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut nesciunt, corrupti, fugit a fuga sed quos harum totam, distinctio provident facere maxime id hic. Eius alias ab impedit nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, accusamus! Non quod quis similique sed ipsam possimus beatae inventore dolorem at, sequi aperiam rerum tempore
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut nesciunt, corrupti, fugit a fuga sed quos harum totam, distinctio provident facere maxime id hic. Eius alias ab impedit nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, accusamus! Non quod quis similique sed ipsam possimus beatae inventore dolorem at, sequi aperiam rerum tempore					
+					<h6 className="text-center">Services Sold</h6>
+
+					<span className="text-sm text-left text-muted">Product A</span>
+					<span className="text-sm float-right text-muted">25%</span>
+					<Progress value={25} />
+
+					<span className="text-sm text-left text-muted">Product B</span>
+					<span className="text-sm float-right text-muted">55%</span>
+					<Progress color="info" value={50} />
+					<span className="text-sm text-left text-muted">Product C</span>
+					<span className="text-sm float-right text-muted">75%</span>
+					<Progress color="warning" value={75} />
+					<span className="text-sm text-left text-muted">Product D</span>
+					<span className="text-sm float-right text-muted">SOLD!</span>
+					<Progress color="danger" value={100} />
 				</p>
 			</Card>
 		</div>
