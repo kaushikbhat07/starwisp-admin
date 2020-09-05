@@ -9,6 +9,9 @@
 .activity-card p::-webkit-scrollbar {
 	width: 5px;
 }
+.text-md {
+	font-size: 12px;
+}
 
 /* custom scroll bar */
 

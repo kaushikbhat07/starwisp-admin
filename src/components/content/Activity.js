@@ -9,9 +9,48 @@ function Activity() {
 		<div>
 			<Card className="activity-card shadow p-3">
 				<p>
-					<h3>Activity</h3>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut nesciunt, corrupti, fugit a fuga sed quos harum totam, distinctio provident facere maxime id hic. Eius alias ab impedit nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, accusamus! Non quod quis similique sed ipsam possimus beatae inventore dolorem at, sequi aperiam rerum tempore
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut nesciunt, corrupti, fugit a fuga sed quos harum totam, distinctio provident facere maxime id hic. Eius alias ab impedit nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, accusamus! Non quod quis similique sed ipsam possimus beatae inventore dolorem at, sequi aperiam rerum tempore					
+					<h4 className="text-center pb-4">Recent Activity</h4>
+
+					<div className="m-3">
+						<h6 className="text-danger">All hands meeting</h6>
+						<span className="text-md text-muted">Last updated at, 15:00 PM</span>
+						<hr/>
+					</div>
+					<div className="m-3">
+						<h6 className="text-warning">Changed settings</h6>
+						<span className="text-md text-muted">Last updated at, 15:00 PM</span>
+						<hr/>
+					</div>
+					<div className="m-3">
+						<h6 className="text-primary">New curriculum</h6>
+						<span className="text-md text-muted">Last updated at, 15:00 PM</span>
+						<hr/>
+					</div>
+					<div className="m-3">
+						<h6 className="text-success">Updated post content</h6>
+						<span className="text-md text-muted">Last updated at, 15:00 PM</span>
+						<hr/>
+					</div>
+					<div className="m-3">
+						<h6 className="text-success">Updated revenue report</h6>
+						<span className="text-md text-muted">Last updated at, 15:00 PM</span>
+						<hr/>
+					</div>
+					<div className="m-3">
+						<h6 className="text-danger">Design meeting</h6>
+						<span className="text-md text-muted">Last updated at, 15:00 PM</span>
+						<hr/>
+					</div>
+					<div className="m-3">
+						<h6 className="text-danger">Scrum meeting</h6>
+						<span className="text-md text-muted">Last updated at, 15:00 PM</span>
+						<hr/>
+					</div>
+					<div className="m-3">
+						<h6 className="text-success">Deployed site</h6>
+						<span className="text-md text-muted">Last updated at, 15:00 PM</span>
+						<hr/>
+					</div>																			
 				</p>
 			</Card>
 		</div>
