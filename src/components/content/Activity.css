@@ -1,0 +1,30 @@
+.activity-card {
+	min-height: 550px;
+}
+.activity-card p {
+	overflow-y: scroll;
+	max-height: 500px;
+}
+
+.activity-card p::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* custom scroll bar */
+
+/* Track */
+.activity-card p::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 2px grey; 
+	border-radius: 500px;
+}
+
+/* Handle */
+.activity-card p::-webkit-scrollbar-thumb {
+	background: #d3d3d3; 
+	border-radius: 500px;
+}
+
+/* Handle on hover */
+.activity-card p::-webkit-scrollbar-thumb:hover {
+	background: #808083; 
+}

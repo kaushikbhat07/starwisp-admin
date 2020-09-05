@@ -1,9 +1,9 @@
 .services-card {
-	min-height: 200px;
+	min-height: 230px;
 }
 .services-card p {
 	overflow-y: scroll;
-	max-height: 150px;
+	max-height: 180px;
 }
 
 .services-card p::-webkit-scrollbar {

@@ -4,6 +4,8 @@ import Quotation from '../content/Quotation'
 import Revenue from '../content/Revenue'
 import Sales from '../content/Sales'
 import Services from '../content/Services'
+import Activity from '../content/Activity'
+import Messages from '../content/Messages'
 
 function Main() {
 	return (
@@ -27,10 +29,20 @@ function Main() {
 								</div>
 							</div>
 							<div className="col-6">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum officia sapiente necessitatibus autem accusamus, reprehenderit quis aliquam fugiat rerum modi quasi quibusdam voluptatibus, rem recusandae mollitia vero minus corrupti adipisci.
+								<div className="mt-4">
+									<Activity />
+								</div>
 							</div>
 						</div>
 					</div>
+					<div className="col-9">
+						<div className="messages-section">
+							<Messages />
+						</div>
+					</div>	
+					<div className="col-12">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eaque nobis minus quod magni in quas assumenda dignissimos iure, laudantium eligendi sapiente delectus labore sunt fugiat voluptas dolorem quo cum.
+					</div>									
 				</div>
 			</div>
 

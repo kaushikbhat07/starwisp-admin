@@ -1,9 +1,9 @@
 .sales-card {
-	min-height: 300px;
+	min-height: 330px;
 }
 .sales-card p {
 	overflow-y: scroll;
-	max-height: 250px;
+	max-height: 280px;
 }
 
 .sales-card p::-webkit-scrollbar {

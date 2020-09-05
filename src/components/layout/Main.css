@@ -1,3 +1,13 @@
 .main-section {
 	padding-top: 100px;
 }
+.messages-section {
+	position: absolute;
+	margin-top: -35%;
+	max-width: 91%;
+	min-width: 91%;
+}
+.messages-container {
+	position: relative;
+	width: 100%;
+}
