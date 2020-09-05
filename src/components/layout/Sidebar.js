@@ -1,28 +1,22 @@
 import React from 'react';
 import './Sidebar.css';
+import { Nav, NavItem } from 'reactstrap';
 import { NavLink } from 'react-router-dom'
 
 function Sidebar() {
 	return (
 		<aside className="d-flex flex-column">
-			<ul className="navbar-nav navbar-light bg-light sidebar text-center">
-				<li className="nav-item">
-					<NavLink to='/hello' className="nav-link active">
-						Dashboard
-					</NavLink>
-				</li>
-				<li className="nav-item">
-					<NavLink to='/hello' className="nav-link">
-						University
-					</NavLink>
-				</li>
-				<li className="nav-item">
-					<NavLink to='/hello' className="nav-link">
-						System
-					</NavLink>
-				</li>
-			</ul>
-
+			<Nav navbar className="bg-light sidebar text-center">
+				<NavItem>
+					<NavLink className="nav-link" to="/home">Dashboard</NavLink>
+				</NavItem>
+				<NavItem>
+					<NavLink className="nav-link" to="/add">University</NavLink>
+				</NavItem>
+				<NavItem>
+					<NavLink className="nav-link" to="/notifications">System</NavLink>
+				</NavItem>
+			</Nav>
 		</aside>
 	);
 }
