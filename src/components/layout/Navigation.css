@@ -1,0 +1,18 @@
+.fixed-top .nav-link {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+.profile-btn {
+	border-radius: 50% !important;
+	padding: 14px !important;
+}
+.nav-link span {
+	font-size: 20px;
+}
+.nav-link button {
+	padding: 20px;
+	border-radius: 50%;
+}
+.fixed-top ul.nav {
+	align-items: center;
+}

@@ -8,22 +8,22 @@ function Sidebar() {
 
 				<li className="nav-item">
 					<a className="nav-link" href="index.html">
-						<span>Dashboard</span>
+						<h6>Dashboard</h6>
 					</a>
 				</li>
 				<li className="nav-item">
 					<a className="nav-link" href="index.html">
-						<span>Dashboard</span>
+						<h6>Dashboard</h6>
 					</a>
 				</li>
 				<li className="nav-item">
 					<a className="nav-link" href="index.html">
-						<span>Dashboard</span>
+						<h6>Dashboard</h6>
 					</a>
 				</li>
 				<li className="nav-item">
 					<a className="nav-link" href="index.html">
-						<span>Dashboard</span>
+						<h6>Dashboard</h6>
 					</a>
 				</li>
 			</ul>
