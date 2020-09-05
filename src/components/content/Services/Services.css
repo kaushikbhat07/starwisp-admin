@@ -13,7 +13,9 @@
 .text-sm {
 	font-size: 10px;
 }
-
+.services-card h6 {
+	font-weight: 600;
+}
 /* custom scroll bar */
 
 /* Track */

@@ -1,15 +1,12 @@
 * {
 	box-sizing: border-box;
 }
-
-
 body {
 	margin: 0;
 	padding: 0;
 	background-color: #eaecf4 !important;
+	font-family: 'Open Sans', sans-serif;
 }
-
-
 .bg-gray-100 {
 	background-color: #f8f9fc !important;
 }
@@ -44,4 +41,27 @@ body {
 
 .bg-gray-900 {
 	background-color: #3a3b45 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	color: #14213d;
+}
+h1 {
+	font-weight: 900;
+}
+h2 {
+	font-weight: 800;
+}
+h3 {
+	font-weight: 700;
+}
+h4 {
+	font-weight: 600;
+}
+h5 {
+	font-weight: 500;
+}
+h6 {
+	font-weight: 500;
 }

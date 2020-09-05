@@ -1,18 +1,17 @@
 .sidebar {
 	min-width: 200px;
 	max-width: 250px;
-
 	min-height: 100%;
-
 	padding-top: 100px;
 }
 .sidebar .nav-item {
 	margin-bottom: 10px;
 }
-.nav-link:active {
-	background-color: #d3d3d3;
-	color: black;
-}
 .sidebar .active {
+	background-color: #d3d3d3;
+	font-weight: 600;
 	color: #000;
+}
+.sidebar .nav-link {
+	color: #14213d;
 }

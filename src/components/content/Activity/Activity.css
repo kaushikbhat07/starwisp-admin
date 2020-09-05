@@ -12,7 +12,10 @@
 .text-md {
 	font-size: 12px;
 }
-
+.activity-card h6 {
+	font-size: 1.15rem;
+	font-weight: 600;
+}
 /* custom scroll bar */
 
 /* Track */

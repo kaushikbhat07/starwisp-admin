@@ -19,6 +19,9 @@
 .chat-time {
 	margin-left: 14%;
 }
+.chat-wrapper p {
+	margin: 0;
+}
 /* custom scroll bar */
 
 /* Track */

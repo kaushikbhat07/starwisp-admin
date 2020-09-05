@@ -17,7 +17,9 @@ function Messages() {
 								<img src="https://via.placeholder.com/50" className="chat-profile" alt="Generic placeholder image" />
 							</Media>
 							<Media body className="ml-4 bg-success p-3 chat-box text-white mr-3">
-								Hello! Website is up and running.
+								<p>
+									Hello! Website is up and running.
+								</p>
       						</Media>
 						</Media>
 						<div className="d-block chat-time">
@@ -31,7 +33,7 @@ function Messages() {
 								<img src="https://via.placeholder.com/50" className="chat-profile" alt="Generic placeholder image" />
 							</Media>
 							<Media body className="ml-4 bg-success p-3 chat-box text-white mr-3">
-								Wow, thats great!
+								<p>Wow, thats great!</p>
       						</Media>
 						</Media>
 						<div className="d-block chat-time">
@@ -45,7 +47,7 @@ function Messages() {
 								<img src="https://via.placeholder.com/50" className="chat-profile" alt="Generic placeholder image" />
 							</Media>
 							<Media body className="ml-4 bg-success p-3 chat-box text-white mr-3">
-								Good job mate!
+								<p>Good job mate!</p>
       						</Media>
 						</Media>
 						<div className="d-block chat-time">
@@ -53,10 +55,10 @@ function Messages() {
 						</div>						
 					</div>
 
-					<div className="chat-wrapper ml-2 mb-4">
+					<div className="chat-wrapper mb-4">
 						<Media>
 							<Media body className="ml-4 bg-primary p-3 chat-box text-white mr-3">
-								It's working. Thank you!
+								<p>It's working. Thank you!</p>
       						</Media>
 							<Media right href="#" className="mr-3">
 								<img src="https://via.placeholder.com/50" className="chat-profile" alt="Generic placeholder image" />
