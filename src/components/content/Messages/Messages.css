@@ -10,6 +10,15 @@
 	width: 5px;
 }
 
+.chat-profile {
+	border-radius: 50%;
+}
+.chat-box {
+	border-radius: 30px;
+}
+.chat-time {
+	margin-left: 14%;
+}
 /* custom scroll bar */
 
 /* Track */
