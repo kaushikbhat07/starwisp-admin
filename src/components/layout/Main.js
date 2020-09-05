@@ -6,6 +6,8 @@ import Sales from '../content/Sales'
 import Services from '../content/Services'
 import Activity from '../content/Activity'
 import Messages from '../content/Messages'
+import Social from '../content/Social'
+import Footer from "./Footer";
 
 function Main() {
 	return (
@@ -40,10 +42,13 @@ function Main() {
 							<Messages />
 						</div>
 					</div>	
-					<div className="col-12">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eaque nobis minus quod magni in quas assumenda dignissimos iure, laudantium eligendi sapiente delectus labore sunt fugiat voluptas dolorem quo cum.
+					<div className="col-12 mt-4">
+						<div>
+							<Social />
+						</div>
 					</div>									
 				</div>
+				<Footer />
 			</div>
 
 		</section>
