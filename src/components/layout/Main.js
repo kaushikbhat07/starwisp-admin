@@ -10,8 +10,12 @@ function Main() {
 			<div className="main-section container">
 				<div className="row pl-3 pr-3">
 					<div className="col-5">
-						<Quotation />
-						<Sales />
+						<div>
+							<Quotation />
+						</div>
+						<div className="mt-4">
+							<Sales />
+						</div>
 					</div>
 					<div className="col-7">
 						<Revenue />
