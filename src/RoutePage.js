@@ -3,8 +3,8 @@ import Main from './components/layout/Main'
 import Notifications from './components/layout/Notifications'
 import Reports from './components/layout/Reports'
 import Add from './components/layout/Add'
-import Navigation from "./components/layout/Navigation";
-import Sidebar from "./components/layout/Sidebar";
+import Navigation from "./components/layout/Navigation/Navigation";
+import Sidebar from "./components/layout/Sidebar/Sidebar";
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 
 class RouterPage extends Component {

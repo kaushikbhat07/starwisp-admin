@@ -1,12 +1,12 @@
 import React from 'react';
 import './Main.css';
-import Quotation from '../content/Quotation'
-import Revenue from '../content/Revenue'
-import Sales from '../content/Sales'
-import Services from '../content/Services'
-import Activity from '../content/Activity'
-import Messages from '../content/Messages'
-import Social from '../content/Social'
+import Quotation from '../content/Quotation/Quotation'
+import Revenue from '../content/Revenue/Revenue'
+import Sales from '../content/Sales/Sales'
+import Services from '../content/Services/Services'
+import Activity from '../content/Activity/Activity'
+import Messages from '../content/Messages/Messages'
+import Social from '../content/Social/Social'
 import Footer from "./Footer";
 
 function Main() {
