@@ -1,3 +1,12 @@
+# Description
+
+A static admin dashboard design :slightly_smiling_face:
+
+Deployed at: https://starwispadmin.web.app
+
+![image](https://user-images.githubusercontent.com/42489689/110209871-d3597380-7eb4-11eb-9b9b-23e8950da59e.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
