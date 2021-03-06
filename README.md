@@ -1,6 +1,6 @@
 # Description
 
-A static admin dashboard design :slightly_smiling_face:
+A static admin dashboard design built while playing around with CSS & Chart.js! :slightly_smiling_face:
 
 Deployed at: https://starwispadmin.web.app
 
